@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb3b6aba2faf74abbd69d25c01e1b51c",
+    "content-hash": "7d3be0a5b8eb7fedaf7795cd223c869b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2173,6 +2173,38 @@
                 "xml"
             ],
             "time": "2017-09-04T12:26:28+00:00"
+        },
+        {
+            "name": "modules-unraveled/drush-shell-aliases",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ModulesUnraveled/Drush-Shell-Aliases.git",
+                "reference": "bfa7b5e294ab0f6cc721ffaa2f292743d0442aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ModulesUnraveled/Drush-Shell-Aliases/zipball/bfa7b5e294ab0f6cc721ffaa2f292743d0442aa7",
+                "reference": "bfa7b5e294ab0f6cc721ffaa2f292743d0442aa7",
+                "shasum": ""
+            },
+            "type": "drupal-drush",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Brian Lewis",
+                    "email": "brian@modulesunraveled.com"
+                }
+            ],
+            "description": "Useful Drush shell-aliases for Drupal 8 development.",
+            "homepage": "https://github.com/ModulesUnraveled/Drush-Shell-Aliases",
+            "keywords": [
+                "Drush"
+            ],
+            "time": "2016-09-12T15:49:10+00:00"
         },
         {
             "name": "nikic/php-parser",
