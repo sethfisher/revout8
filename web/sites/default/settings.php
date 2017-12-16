@@ -32,7 +32,7 @@ $settings['entity_update_batch_size'] = 50;
 
 $config_directories['sync'] = '../config/sync';
 
-$settings['install_profile'] = 'standard';
+$settings['install_profile'] = 'revout';
 
 /**
  * Load local development override configuration, if available.

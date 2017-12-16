@@ -1,0 +1,13 @@
+name: Revout
+type: profile
+description: 'The Revolutionary Output installation profile.'
+core: 8.x
+
+# Required modules
+# Note that any dependencies of the modules listed here will be installed automatically.
+dependencies:
+
+# List any themes that should be installed as part of the installation
+# profile installation.
+# Note that this will not set any theme as the default theme.
+themes:
