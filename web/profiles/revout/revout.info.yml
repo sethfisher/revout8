@@ -40,6 +40,9 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  - admin_toolbar
+  - module_filter
+  - pathauto
 
 # List any themes that should be installed as part of the installation
 # profile installation.
