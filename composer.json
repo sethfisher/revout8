@@ -23,6 +23,8 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
         "drupal/drupal8_zymphonies_theme": "^1.0",
+        "drupal/ds": "^3.0",
+        "drupal/menu_item_extras": "^2.0",
         "drupal/module_filter": "^3.0",
         "drupal/pathauto": "^1.0",
         "drush/drush": "~8.0|^9.0.0-beta8",
