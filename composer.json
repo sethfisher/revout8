@@ -25,6 +25,7 @@
         "drupal/drupal8_zymphonies_theme": "^1.0",
         "drupal/ds": "^3.0",
         "drupal/entityqueue": "^1.0",
+        "drupal/eva": "^1.0",
         "drupal/front": "^1.0",
         "drupal/menu_item_extras": "^2.0",
         "drupal/module_filter": "^3.0",
