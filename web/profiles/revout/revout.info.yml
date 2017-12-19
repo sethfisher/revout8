@@ -46,6 +46,7 @@ dependencies:
   - ds
   - menu_item_extras
   - front_page
+  - entityqueue
 
 # List any themes that should be installed as part of the installation
 # profile installation.
