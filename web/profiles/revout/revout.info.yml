@@ -45,7 +45,7 @@ dependencies:
   - pathauto
   - ds
   - menu_item_extras
-  - front
+  - front_page
 
 # List any themes that should be installed as part of the installation
 # profile installation.
