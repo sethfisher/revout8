@@ -48,6 +48,7 @@ dependencies:
   - front_page
   - entityqueue
   - eva
+  - back_to_top
 
 # List any themes that should be installed as part of the installation
 # profile installation.
