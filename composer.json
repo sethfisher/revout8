@@ -13,7 +13,19 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+              "name": "jackmoore/colorbox",
+              "version": "1.6.4",
+              "type": "drupal-library",
+              "dist": {
+                "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                "type": "zip"
+            }
+          }
+        }        
     ],
     "require": {
         "composer/installers": "^1.2",
@@ -21,6 +33,7 @@
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/admin_toolbar": "^1.0",
         "drupal/back_to_top": "^1.0",
+        "drupal/colorbox": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
         "drupal/drupal8_zymphonies_theme": "^1.0",
@@ -33,6 +46,7 @@
         "drupal/pathauto": "^1.0",
         "drupal/video_embed_field": "^2.0",
         "drush/drush": "~8.0|^9.0.0-beta8",
+        "jackmoore/colorbox": "^1.6",
         "modules-unraveled/drush-shell-aliases": "^1.0",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
