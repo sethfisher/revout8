@@ -52,6 +52,8 @@ dependencies:
   - video_embed_field
   - colorbox
   - metatag
+  - metatag_open_graph
+  - metatag_twitter_cards
 
 # List any themes that should be installed as part of the installation
 # profile installation.
