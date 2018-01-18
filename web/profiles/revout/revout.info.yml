@@ -56,6 +56,7 @@ dependencies:
   - metatag_twitter_cards
   - field_delimiter
   - responsive_menus
+  - lazyloader
 
 # List any themes that should be installed as part of the installation
 # profile installation.

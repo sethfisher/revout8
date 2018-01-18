@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "42ff239962107bac14287eccc0794c71",
+    "content-hash": "1d46cde0d7d6bd5060dc290325ec7ab3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2146,6 +2146,65 @@
             "homepage": "https://www.drupal.org/project/field_delimiter",
             "support": {
                 "source": "http://cgit.drupalcode.org/field_delimiter"
+            }
+        },
+        {
+            "name": "drupal/lazyloader",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/lazyloader",
+                "reference": "8.x-1.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/lazyloader-8.x-1.0-alpha2.zip",
+                "reference": "8.x-1.0-alpha2",
+                "shasum": "9179e614f802134568b7fd1a8e7f96988ac3fb3b"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha2",
+                    "datestamp": "1467566339",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "beeradb",
+                    "homepage": "https://www.drupal.org/user/120651"
+                },
+                {
+                    "name": "danielhonrade",
+                    "homepage": "https://www.drupal.org/user/351112"
+                },
+                {
+                    "name": "guilopes",
+                    "homepage": "https://www.drupal.org/user/2594268"
+                },
+                {
+                    "name": "legolasbo",
+                    "homepage": "https://www.drupal.org/user/2480548"
+                }
+            ],
+            "description": "Automatically lazyload images on windows scroll, makes sites with multiple images load faster.",
+            "homepage": "https://www.drupal.org/project/lazyloader",
+            "support": {
+                "source": "http://cgit.drupalcode.org/lazyloader"
             }
         },
         {

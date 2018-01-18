@@ -41,6 +41,7 @@
         "drupal/entityqueue": "^1.0",
         "drupal/eva": "^1.0",
         "drupal/field_delimiter": "^1.0",
+        "drupal/lazyloader": "^1.0",
         "drupal/menu_item_extras": "^2.0",
         "drupal/metatag": "^1.0",
         "drupal/module_filter": "^3.0",
