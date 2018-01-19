@@ -59,6 +59,7 @@ dependencies:
   - lazyloader
   - image_effects
   - add_to_any
+  - responsive_menu
 
 # List any themes that should be installed as part of the installation
 # profile installation.
