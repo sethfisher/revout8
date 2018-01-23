@@ -1,4 +1,4 @@
-/* Layout CSS for: page.html.twig, generated: Tue, 23 Jan 18 14:29:08 -0500 */
+/* Layout CSS for: page.html.twig, generated: Tue, 23 Jan 18 14:30:30 -0500 */
 
 .page {
   display: flex;
@@ -154,6 +154,14 @@
 .l-content-suffix { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
 .l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
 .l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
+
+.pr-header .arc--2 .l-r {
+  width: 25%;
+}
+
+.pr-header .arc--2 .l-r:last-child {
+  width: 75%;
+}
 
 }
 /* End breakpoint */
