@@ -1,4 +1,11 @@
-/* Layout CSS for: page.html.twig, generated: Sat, 15 Oct 16 22:11:51 +1300 */
+/* Layout CSS for: page.html.twig, generated: Tue, 23 Jan 18 14:24:36 -0500 */
+
+.page {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
 .l-rw {
   display: flex;
   flex-wrap: wrap;
@@ -12,10 +19,59 @@
   padding: 0 0.625em;
   width: 100%;
 }
-@media all and (min-width: 60.063em) {
+
+/* Begin breakpoint: huge */
+@media all and (min-width: 120.0625em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+
+}
+/* End breakpoint */
+
+/* Begin breakpoint: tablet */
+@media all and (min-width: 45.0625em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+
+}
+/* End breakpoint */
+
+/* Begin breakpoint: wide */
+@media all and (min-width: 60.0625em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+.l-navbar { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+.l-highlighted { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
+.l-features { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
+.l-content-prefix { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
+.l-main { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
+.l-content-suffix { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
+.l-subfeatures { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
+.l-footer { -webkit-order: 10; -ms-flex-order: 10; order: 10; }
+
 .pr-header .arc--2 .l-r {
   width: 50%;
 }
+
 .pr-features .hr--1-2 .l-r:first-child {
   width: 83.33333%;
   -webkit-order: 2;
@@ -68,6 +124,7 @@
       -ms-flex-order: 3;
           order: 3;
 }
+
 .pr-main .hr--1-2 .l-r:first-child {
   width: 75%;
   -webkit-order: 2;
@@ -120,6 +177,7 @@
       -ms-flex-order: 3;
           order: 3;
 }
+
 .pr-subfeatures .arc--2 .l-r {
   width: 50%;
 }
@@ -131,33 +189,60 @@
 .pr-subfeatures .arc--4 .l-r {
   width: 25%;
 }
-}
-@media all and (min-width: 45.063em) and (max-width: 60em) {
-.pr-features .hr--2-3 .l-r,
-.pr-features .arc--3 .l-r:nth-child(2) {
-  width: 50%;
-}
 
-.pr-features .hr--2-3 .l-r:last-child,
-.pr-features .arc--3 .l-r:last-child {
-  width: 50%;
 }
-.pr-main .hr--2-3 .l-r,
-.pr-main .arc--3 .l-r:nth-child(2) {
-  width: 50%;
-}
+/* End breakpoint */
 
-.pr-main .hr--2-3 .l-r:last-child,
-.pr-main .arc--3 .l-r:last-child {
-  width: 50%;
-}
-.pr-subfeatures .arc--2 .l-r,
-.pr-subfeatures .arc--3 .l-r:first-child,
-.pr-subfeatures .arc--4 .l-r {
-  width: 50%;
-}
+/* Begin breakpoint: wideisolate */
+@media all and (min-width: 60.0625em) and (max-width: 120em) {
 
-.pr-subfeatures .arc--3 .l-r:nth-child(2) {
-  width: 50%;
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+
 }
+/* End breakpoint */
+
+/* Begin breakpoint: tabletisolate */
+@media all and (min-width: 45.0625em) and (max-width: 60em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+.l-highlighted { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+.l-features { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
+.l-content-prefix { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
+.l-main { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
+.l-content-suffix { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
+.l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
+.l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
+
 }
+/* End breakpoint */
+
+/* Begin breakpoint: mobileisolate */
+@media all and (max-width: 45em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+
+}
+/* End breakpoint */
+
+
+.l-attribution { -webkit-order: 100; -ms-flex-order: 100; order: 100 ;}
