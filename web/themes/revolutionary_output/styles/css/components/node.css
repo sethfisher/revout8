@@ -7,9 +7,6 @@
  *    the root template is node.html.twig and the base selector is .node {}
  ============================================================================ */
 .node {
-  margin-bottom: 1.25em;
-  padding: 1.25em;
-  border-radius: 2px;
 }
 
 .node p:last-child {
