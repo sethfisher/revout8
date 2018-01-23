@@ -59,7 +59,6 @@ dependencies:
   - lazyloader
   - image_effects
   - addtoany
-  - responsive_menu
   - at_tools
   - at_theme_generator
 
