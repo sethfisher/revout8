@@ -23,3 +23,44 @@
 span.oitnb {
   color: #E36700;
 }
+
+/*
+ * OITNB Characters Button
+ */
+ 
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple {
+  background-color: #000000;
+  box-shadow: .125em .125em .125em #000000;
+}
+
+.responsive-menus.responsified span.toggler {
+  padding-top: .3125em;
+  padding-bottom: .3125em;
+}
+
+.responsive-menus.responsified span.toggler:hover {
+  background-color: #E36700;
+  color: #000000;
+}
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple li a {
+  color: #E36700;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a {
+  padding-left: 3.75em;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li {
+  float: none;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li:hover {
+  background-color: #A11A1A;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li.menu-item-434 a {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: auto;
+}
