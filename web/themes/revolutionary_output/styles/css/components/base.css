@@ -96,11 +96,11 @@ fieldset {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 1rem;
-  line-height: 1.125;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h5 {
-  font-weight: 400;
+  font-weight: bold;
 }
 
 h4, h6 {
@@ -112,7 +112,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 1.625rem;
+  font-size: 1.3125rem;
 }
 
 h3, .h3 {
@@ -146,7 +146,7 @@ h4 small, .h4 small {
     font-size: 2.625rem;
   }
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 1.3125rem;
   }
   h3, .h3 {
     font-size: 1.625rem;
