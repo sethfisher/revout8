@@ -24,6 +24,12 @@ span.oitnb {
   color: #E36700;
 }
 
+#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-author-date {
+  float: left;
+  padding-top: .3125em;
+  padding-right: .9375em;
+}
+
 /*
  * OITNB Characters Button
  */
