@@ -4,6 +4,9 @@
  * component stylesheets.
  ============================================================================ */
 
-
+#block-revolutionary-output-content {
+  font-size: 1.05rem;
+  font-family: Georgia, serif;
+}
 
 
