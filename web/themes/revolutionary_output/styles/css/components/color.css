@@ -19,19 +19,19 @@ body {
 }
 
 a {
-  color: #0066cc;
+  color: #E36700;
 }
 
 a:visited {
-  color: #0066cc;
+  color: #A11A1A;
 }
 
 a:active, a.active {
-  color: #0066cc;
+  color: #E36700;
 }
 
 a:hover, a:focus {
-  color: #0066cc;
+  color: #E36700;
 }
 
 blockquote {
