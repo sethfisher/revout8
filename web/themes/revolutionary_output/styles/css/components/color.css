@@ -51,6 +51,10 @@ blockquote.pull-right {
   border-right-color: #cccccc;
 }
 
+h1, h2 {
+  color: #A11A1A;
+}
+
 hr {
   border-color: #cccccc;
 }
