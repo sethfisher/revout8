@@ -12,3 +12,14 @@
 #block-revolutionary-output-content h2 {
   font-size: 1.5rem;
 }
+
+#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-page-title,
+#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-custom-soc-oitnb-page-title {
+  color: #A11A1A;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+span.oitnb {
+  color: #E36700;
+}
