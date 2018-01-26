@@ -22,3 +22,6 @@
 
 # Ignore mods_enabled used by Modules Unraveled's Drush Shell Aliases
 /mods_enabled.local
+
+# Ignore Sublime Text project files
+/*.sublime*
