@@ -45,7 +45,6 @@ dependencies:
   - pathauto
   - ds
   - ds_extras
-  - menu_item_extras
   - entityqueue
   - eva
   - back_to_top
