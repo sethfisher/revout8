@@ -9,7 +9,7 @@
  *   - attributes: HTML attributes for the menu item.
  *   - below: The menu item child items.
  *   - title: The menu link title (with HTML stripped)
- *   - markup_title: The menu link title (with HTML)
+ *   - title_markup: The menu link title (with HTML)
  *   - url: The menu link url, instance of \Drupal\Core\Url
  *   - localized_options: Menu link localized options.
  *   - is_expanded: TRUE if the link has visible children within the current
@@ -68,7 +68,7 @@
         <span class="menu__link--wrapper{{ is_parent ? ' is-parent__wrapper' }}">
           {{
             link(
-              item.markup_title,
+              item.title_markup,
               item.url,
               item.attributes.removeClass(item_classes).addClass('menu__link')|without('id', 'role')
             )
