@@ -1,14 +1,15 @@
 {#
 /**
  * @file
- * Theme override to display a menu.
+ * Theme override to display the main menu.
  *
  * Available variables:
  * - menu_name: The machine name of the menu.
  * - items: A nested list of menu items. Each menu item contains:
  *   - attributes: HTML attributes for the menu item.
  *   - below: The menu item child items.
- *   - title: The menu link title.
+ *   - title: The menu link title (with HTML stripped)
+ *   - markup_title: The menu link title (with HTML)
  *   - url: The menu link url, instance of \Drupal\Core\Url
  *   - localized_options: Menu link localized options.
  *   - is_expanded: TRUE if the link has visible children within the current
@@ -67,7 +68,7 @@
         <span class="menu__link--wrapper{{ is_parent ? ' is-parent__wrapper' }}">
           {{
             link(
-              item.title,
+              item.markup_title,
               item.url,
               item.attributes.removeClass(item_classes).addClass('menu__link')|without('id', 'role')
             )
