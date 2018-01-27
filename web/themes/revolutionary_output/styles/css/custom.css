@@ -4,6 +4,36 @@
  * component stylesheets.
  ============================================================================ */
 
+#masthead div.regions {
+  min-height: 15.625rem;
+}
+
+#masthead div.region {
+  padding: 0;
+}
+
+#masthead #block-phillysocialistsbanner,
+#masthead #block-phillysocialistsbanner div.field-name-body,
+#masthead #block-phillysocialistsbanner div.field-name-body p {
+  margin: 0;
+}
+
+#masthead #block-phillysocialistsbanner img {
+  min-height: 15.625rem;
+}
+
+#masthead #block-mainmenu div.rm-block__inner,
+#masthead #block-mainmenu div.rm-block__content,
+#masthead #block-mainmenu ul.menu-name--main {
+  height: 100%;
+}
+
+#masthead #block-mainmenu div.rm-block__content {
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+
 /*
  * Main Menu styles
  */
@@ -11,20 +41,87 @@
 #block-mainmenu li.menu__item {
   background-color: #000000;
   border-bottom: solid #A11A1A;
+  height: 20%;
 }
 
 #block-mainmenu li.menu__item:hover {
   background-color: #A11A1A;
 }
 
+#block-mainmenu li#mlid-linkedin {
+  border-bottom: none;
+}
+
+#block-mainmenu span.menu__link--wrapper {
+  height: 100%;
+}
+
 #block-mainmenu a {
   background-color: inherit;
   color: #A11A1A;
+  height: 100%;
+  padding: 0 0 0 3.4375rem;
+  margin: 0;
+  font-size: .91875rem;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 #block-mainmenu li.menu__item:hover a {
   color: #000000;
   text-decoration: none;
+}
+
+#block-mainmenu li#mlid-revolutionary-output a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/no_logo.png');
+}
+
+#block-mainmenu li#mlid-socialism--oitnb a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/philly_socialists.png');
+}
+
+#block-mainmenu li#mlid-twitter a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/twitter.jpeg');
+}
+
+#block-mainmenu li#mlid-facebook a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/facebook.jpg');
+}
+
+#block-mainmenu li#mlid-linkedin a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/linkedin.jpg');
+}
+
+#block-mainmenu a span {
+  position: relative;
+  top: 30%;
+}
+
+#block-mainmenu li#mlid-revolutionary-output a span span {
+  position: unset;
+}
+
+#block-mainmenu span.socialism-oitnb {
+  height: 100%;
+  padding-right: 3.5rem;
+  display: inline-block;
+  position: unset;
+  background-image: url('/themes/revolutionary_output/images/menu_icons/oitnb.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#block-mainmenu #mlid-socialism--oitnb:hover {
+  background-color: #E36700;
+}
+
+#block-mainmenu #mlid-socialism--oitnb:hover a {
+  color: #A11A1A;
+}
+
+#block-mainmenu #mlid-socialism--oitnb:hover span.oitnb {
+  color: #000000;
 }
 
 /*
