@@ -4,8 +4,13 @@
  * component stylesheets.
  ============================================================================ */
 
+#masthead {
+  margin: 0 .625rem;
+}
+
 #masthead div.regions {
   min-height: 15.625rem;
+  padding: 0;
 }
 
 #masthead div.region {
@@ -128,9 +133,38 @@
  * Content region styles
  */
 
+div#main-content {
+  margin: 0 .625rem;
+}
+
+div#main-content .regions {
+  padding: 0;
+ }
+
+div#main-content .pr-main__sidebar-first {
+  padding-left: 0;
+}
+
+div#main-content .pr-main__content {
+  padding-right: 0;
+}
+
+div#main-content #block-redtalkoursocialistfuturegender {
+  margin-top: 0;
+}
+
+div#main-content #block-redtalkoursocialistfuturegender h2 {
+  margin: 0;
+}
+
 #block-revolutionary-output-content {
+  margin: 0;
   font-size: 1.05rem;
   font-family: Georgia, serif;
+}
+
+#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-custom-soc-oitnb-page-title {
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 #block-revolutionary-output-content h2 {
@@ -161,6 +195,14 @@ span.oitnb {
 /*
  * OITNB Characters Button
  */
+
+#navbar {
+  margin: .625rem;
+}
+
+#navbar div.region {
+  padding: 0;
+}
 
 .responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple {
   background-color: #000000;
