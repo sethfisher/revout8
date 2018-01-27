@@ -163,6 +163,24 @@
 .l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
 .l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
 
+/* Display Revolutionary Output menu item on two lines */
+#block-mainmenu span.revout {
+  position: unset;
+}
+
+#block-mainmenu span.revout span.rev {
+  display: block;
+}
+
+/* Show just icons for Socialism & OITNB menu item */
+#block-mainmenu span.soc, #block-mainmenu span.oitnb {
+  display:none;
+}
+
+#block-mainmenu li#mlid-socialism--oitnb span {
+  font-size: 1.5rem;
+}
+
 }
 /* End breakpoint */
 

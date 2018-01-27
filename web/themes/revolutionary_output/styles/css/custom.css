@@ -122,6 +122,10 @@
   background-position: right;
 }
 
+#block-mainmenu span.socialism-oitnb span.ampersand {
+  font-size: .8rem;
+}
+
 #block-mainmenu #mlid-socialism--oitnb:hover {
   background-color: #E36700;
 }
