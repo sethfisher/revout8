@@ -2,6 +2,7 @@
 
 use Drupal\Component\Utility\Xss;
 use Drupal\Component\Utility\Html;
+use Drupal\Core\Render\Markup;
 
 /**
  * Add dynamic library definitions.
@@ -165,3 +166,18 @@ function revolutionary_output_preprocess_comment(&$variables) {
 function revolutionary_output_preprocess_block(&$variables) {
 }
 // */
+
+/**
+* Preprocess variables for main menu template.
+*
+* Create a Twig Markup version of the menu title so the template can output it
+* as HTML. Then strip the existing menu title of HTML tags so it can be used in
+* naming CSS classes and what not.
+*
+*/
+function revolutionary_output_preprocess_menu__main(&$variables) {
+  foreach ($variables['items'] as $key => $item) {
+    $variables['items'][$key]['title_markup'] = Markup::create($item['title']);
+    $variables['items'][$key]['title'] = strip_tags($item['title']);
+  }
+}
