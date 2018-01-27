@@ -11,6 +11,7 @@
 #masthead div.regions {
   min-height: 15.625rem;
   padding: 0;
+  position: relative;
 }
 
 #masthead div.region {
@@ -42,6 +43,10 @@
 /*
  * Main Menu styles
  */
+
+#block-mainmenu div.rm-toggle {
+  height: 100%;
+}
 
 #block-mainmenu li.menu__item {
   background-color: #000000;

@@ -188,6 +188,13 @@
   width: 75%;
 }
 
+
+/* Show main menu at full screen width and beneath the header */
+#block-mainmenu div#rm-content {
+  position: absolute;
+  width: 100%;
+}
+
 }
 /* End breakpoint */
 
