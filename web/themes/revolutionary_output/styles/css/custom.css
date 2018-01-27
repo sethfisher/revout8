@@ -4,6 +4,33 @@
  * component stylesheets.
  ============================================================================ */
 
+/*
+ * Main Menu styles
+ */
+
+#block-mainmenu li.menu__item {
+  background-color: #000000;
+  border-bottom: solid #A11A1A;
+}
+
+#block-mainmenu li.menu__item:hover {
+  background-color: #A11A1A;
+}
+
+#block-mainmenu a {
+  background-color: inherit;
+  color: #A11A1A;
+}
+
+#block-mainmenu li.menu__item:hover a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/*
+ * Content region styles
+ */
+
 #block-revolutionary-output-content {
   font-size: 1.05rem;
   font-family: Georgia, serif;
@@ -20,10 +47,6 @@
   font-weight: bold;
 }
 
-span.oitnb {
-  color: #E36700;
-}
-
 #block-revolutionary-output-content .field-name-dynamic-token-fieldnode-author-date {
   float: left;
   padding-top: .3125em;
@@ -31,9 +54,17 @@ span.oitnb {
 }
 
 /*
+ * Special OITNB span style
+ */
+
+span.oitnb {
+  color: #E36700;
+}
+
+/*
  * OITNB Characters Button
  */
- 
+
 .responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple {
   background-color: #000000;
   box-shadow: .125em .125em .125em #000000;
