@@ -5,7 +5,6 @@
  ============================================================================ */
 
 #masthead div.regions {
-  min-height: 15.625rem;
   padding: 0;
   position: relative;
 }
@@ -18,10 +17,6 @@
 #masthead #block-phillysocialistsbanner div.field-name-body,
 #masthead #block-phillysocialistsbanner div.field-name-body p {
   margin: 0;
-}
-
-#masthead #block-phillysocialistsbanner img {
-  min-height: 15.625rem;
 }
 
 #masthead #block-mainmenu div.rm-block__inner,
@@ -65,15 +60,10 @@
 #block-mainmenu li.menu__item {
   background-color: #000000;
   border-bottom: solid #A11A1A;
-  height: 20%;
 }
 
 #block-mainmenu li.menu__item:hover {
   background-color: #A11A1A;
-}
-
-#block-mainmenu li#mlid-linkedin {
-  border-bottom: none;
 }
 
 #block-mainmenu span.menu__link--wrapper {
@@ -86,7 +76,6 @@
   height: 100%;
   padding: 0 0 0 3.4375rem;
   margin: 0;
-  font-size: .875rem;
   font-weight: bold;
   background-repeat: no-repeat;
   background-position: left;
@@ -136,10 +125,6 @@
   background-position: right;
 }
 
-#block-mainmenu span.socialism-oitnb span.ampersand {
-  font-size: .79rem;
-}
-
 #block-mainmenu #mlid-socialism--oitnb:hover {
   background-color: #E36700;
 }
@@ -159,14 +144,6 @@
 div#main-content .regions {
   padding: 0;
  }
-
-div#main-content .pr-main__sidebar-first {
-  padding-left: 0;
-}
-
-div#main-content .pr-main__content {
-  padding-right: 0;
-}
 
 div#main-content #block-redtalkoursocialistfuturegender {
   margin-top: 0;
@@ -238,6 +215,10 @@ span.oitnb {
   color: #E36700;
 }
 
+/*
+ * OITNB Characters Menu
+ */
+
 .responsive-menus.responsified .responsive-menus-simple li a {
   padding-left: 3.75em;
 }
@@ -250,8 +231,11 @@ span.oitnb {
   background-color: #A11A1A;
 }
 
-.responsive-menus.responsified .responsive-menus-simple li.menu-item-434 a {
+.responsive-menus.responsified .responsive-menus-simple li#mlid-nicky a {
+  background-image: url('/themes/revolutionary_output/images/menu_icons/science.jpg');
   background-size: auto 100%;
   background-repeat: no-repeat;
   height: auto;
 }
+
+

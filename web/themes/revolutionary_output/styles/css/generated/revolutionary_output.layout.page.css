@@ -121,8 +121,26 @@
   margin: .625rem;
 }
 
-div#main-content {
-  margin: 0 .625rem;
+/* Masthead min-heights */
+#masthead div.regions {
+  min-height: 15.625rem;
+}
+
+#masthead #block-phillysocialistsbanner img {
+  min-height: 15.625rem;
+}
+
+/* Set height for main menu items */
+#block-mainmenu li.menu__item {
+  height: 20%;
+}
+
+#block-mainmenu a {
+  font-size: .875rem;
+}
+
+#block-mainmenu span.socialism-oitnb span.ampersand {
+  font-size: .79rem;
 }
 
 }
@@ -194,6 +212,15 @@ div#main-content {
   font-size: 1.5rem;
 }
 
+#block-mainmenu li#mlid-linkedin {
+  border-bottom: none;
+}
+
+/* Reduce Promo Video font size */
+div#main-content #block-redtalkoursocialistfuturegender h2 {
+  font-size: 1.125rem;
+}
+
 }
 /* End breakpoint */
 
@@ -224,6 +251,23 @@ div#main-content {
 #block-mainmenu div#rm-content {
   position: absolute;
   width: 100%;
+}
+
+/* Set height for main menu items */
+#block-mainmenu li.menu__item {
+  height: 4rem;
+}
+
+#block-mainmenu a {
+  font-size: 1.125rem;
+}
+
+#block-mainmenu li#mlid-revolutionary-output {
+  border-top: solid #A11A1A;
+}
+
+#block-mainmenu li#mlid-linkedin {
+  border-bottom: solid #A11A1A;
 }
 
 #navbar {
