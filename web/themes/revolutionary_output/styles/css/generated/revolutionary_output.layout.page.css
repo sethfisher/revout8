@@ -112,6 +112,19 @@
           order: 3;
 }
 
+/* Region margins */
+#masthead {
+  margin: 0 .625rem;
+}
+
+#navbar {
+  margin: .625rem;
+}
+
+div#main-content {
+  margin: 0 .625rem;
+}
+
 }
 /* End breakpoint */
 
@@ -211,6 +224,10 @@
 #block-mainmenu div#rm-content {
   position: absolute;
   width: 100%;
+}
+
+#navbar {
+  margin: .625rem 0;
 }
 
 }

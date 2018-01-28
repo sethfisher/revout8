@@ -4,10 +4,6 @@
  * component stylesheets.
  ============================================================================ */
 
-#masthead {
-  margin: 0 .625rem;
-}
-
 #masthead div.regions {
   min-height: 15.625rem;
   padding: 0;
@@ -46,6 +42,24 @@
 
 #block-mainmenu div.rm-toggle {
   height: 100%;
+  padding: 0;
+}
+
+#block-mainmenu button.rm-toggle__link {
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+#block-mainmenu span.rm-toggle__label {
+  display: none;
+}
+
+#block-mainmenu svg.rm-toggle__icon {
+  fill: #A11A1A;
+  width: 5rem;
+  height: 5rem;
 }
 
 #block-mainmenu li.menu__item {
@@ -142,10 +156,6 @@
  * Content region styles
  */
 
-div#main-content {
-  margin: 0 .625rem;
-}
-
 div#main-content .regions {
   padding: 0;
  }
@@ -205,11 +215,7 @@ span.oitnb {
  * OITNB Characters Button
  */
 
-#navbar {
-  margin: .625rem;
-}
-
-#navbar div.region {
+#navbar div.region, #navbar div.regions {
   padding: 0;
 }
 
