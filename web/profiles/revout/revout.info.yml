@@ -61,6 +61,7 @@ dependencies:
   - at_tools
   - at_theme_generator
   - entity_embed
+  - video_embed_media
 
 # List any themes that should be installed as part of the installation
 # profile installation.
