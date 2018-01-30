@@ -68,4 +68,5 @@ dependencies:
 # Note that this will not set any theme as the default theme.
 themes:
   - seven
+  - bartik
   - revolutionary_output
