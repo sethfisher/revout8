@@ -41,6 +41,7 @@
         "drupal/core": "~8.4",
         "drupal/drupal8_zymphonies_theme": "^1.0",
         "drupal/ds": "^3.0",
+        "drupal/entity_embed": "^1.0",
         "drupal/entityqueue": "^1.0",
         "drupal/eva": "^1.0",
         "drupal/field_delimiter": "^1.0",
