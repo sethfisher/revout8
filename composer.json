@@ -38,6 +38,7 @@
         "drupal/back_to_top": "^1.0",
         "drupal/colorbox": "^1.0",
         "drupal/colorbox_field_formatter": "^1.0",
+        "drupal/colorbox_load": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
         "drupal/drupal8_zymphonies_theme": "^1.0",
