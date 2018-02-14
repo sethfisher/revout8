@@ -1,0 +1,14 @@
+{
+  "name": "drupal/revout_migration",
+  "type": "drupal-module",
+  "description": "A custom module to migrate D7 version of Revolutionary Output to D8",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/revout_migration",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/revout_migration",
+    "source": "http://cgit.drupalcode.org/revout_migration"
+  },
+  "require": { }
+}
