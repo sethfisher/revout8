@@ -17,7 +17,9 @@ source:
 process:
   id: mlid
   bundle: constants/bundle
-  title: link_title
+  title:
+    plugin: menu_link_title
+    source: link_title
   description: description
   menu_name:
     -
