@@ -22,8 +22,6 @@ class MenuLinkTitle extends ProcessPluginBase {
     if ($value == '<span class="soc">Socialism</span><span> & </span><span class="oitnb">OITNB</span><img src="/sites/all/themes/revolutionary_output/images/oitnb.jpg" alt="OITNB" title="OITNB">') {
       $value = '<span class="socialism-oitnb"><span class="soc">Socialism</span><span class="ampersand"> & </span><span class="oitnb">OITNB</span></span>';
     }
-    // $date_part = isset($this->configuration['date_part']) ? $this->configuration['date_part'] : 'from';
-    // $value = ($date_part == 'from') ? $value['value'] : $value['value2'];
     return $value;
   }
 }
