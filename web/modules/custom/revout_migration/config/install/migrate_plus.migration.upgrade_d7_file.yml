@@ -14,7 +14,7 @@ source:
   plugin: d7_file
   scheme: public
   constants:
-    source_base_path: /
+    source_base_path: 'sites/default/files'
 process:
   fid: fid
   filename: filename
