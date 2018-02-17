@@ -30,9 +30,12 @@ process:
       plugin: skip_on_empty
       method: row
   link/uri:
-    plugin: link_uri
-    source:
-      - link_path
+    -
+      plugin: link_uri
+      source:
+        - link_path
+    -
+      plugin: menu_link_uri
   link/options: options
   route:
     plugin: route
