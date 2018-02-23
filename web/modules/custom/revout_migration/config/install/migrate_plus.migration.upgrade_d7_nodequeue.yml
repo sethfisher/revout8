@@ -22,3 +22,6 @@ process:
   queue_settings/act_as_queue: 'constants/act_as_queue'
 destination:
   plugin: entity:entity_queue
+migration_dependencies:
+  required:
+    - upgrade_d7_node_character
