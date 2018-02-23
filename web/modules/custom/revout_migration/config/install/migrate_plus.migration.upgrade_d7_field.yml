@@ -16,14 +16,24 @@ source:
     status: true
     langcode: und
 process:
-  entity_type: entity_type
+  entity_type:
+    plugin: skip_on_value
+    method: row
+    source: entity_type
+    value:
+    - bean
+    - comment
   status: constants/status
   langcode: constants/langcode
   field_name: field_name
   type:
-    plugin: process_field
-    source: type
-    method: getFieldType
+    -
+      plugin: process_field
+      source: type
+      method: getFieldType
+    -
+      plugin: skip_on_empty
+      method: row
   cardinality: cardinality
   settings:
     plugin: d7_field_settings
