@@ -1,7 +1,8 @@
-id: d7_nodesubqueue
+id: upgrade_d7_nodesubqueue
 label: Node subqueue
 migration_tags:
   - Drupal 7
+migration_group: migrate_drupal_7
 source:
   plugin: d7_nodesubqueue
 process:
@@ -13,4 +14,4 @@ destination:
   plugin: entity:entity_subqueue
 migration_dependencies:
   required:
-    - d7_nodequeue
+    - upgrade_d7_nodequeue
