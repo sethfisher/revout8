@@ -1,7 +1,8 @@
-id: d7_nodequeue
+id: upgrade_d7_nodequeue
 label: Node queue
 migration_tags:
   - Drupal 7
+migration_group: migrate_drupal_7
 source:
   plugin: d7_nodequeue
   constants:
