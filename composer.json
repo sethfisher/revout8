@@ -25,7 +25,7 @@
                 "type": "zip"
             }
           }
-        }        
+        }
     ],
     "require": {
         "composer/installers": "^1.2",
@@ -109,6 +109,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/video_embed_field": {
+                "Add Autoplay, Start, and Index Parameters to YouTube Playlist": "https://github.com/sethfisher/video_embed_field/commit/614971024c2b02c64deae2de72f81d6b9a226f2e.patch"
+            }
         }
     }
 }
