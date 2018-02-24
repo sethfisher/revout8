@@ -18,8 +18,10 @@ process:
   id: mlid
   bundle: constants/bundle
   title:
-    plugin: menu_link_title
+    plugin: str_replace
     source: link_title
+    search: <span class="soc">Socialism</span><span> & </span><span class="oitnb">OITNB</span><img src="/sites/all/themes/revolutionary_output/images/oitnb.jpg" alt="OITNB" title="OITNB">
+    replace: <span class="socialism-oitnb"><span class="soc">Socialism</span><span class="ampersand"> & </span><span class="oitnb">OITNB</span></span>
   description: description
   menu_name:
     -
