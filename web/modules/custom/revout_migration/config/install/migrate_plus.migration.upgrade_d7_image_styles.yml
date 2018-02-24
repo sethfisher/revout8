@@ -16,12 +16,8 @@ process:
   name: name
   label: label
   effects:
-    plugin: sub_process
+    plugin: image_effects
     source: effects
-    process:
-      id: name
-      weight: weight
-      data: data
 destination:
   plugin: 'entity:image_style'
 migration_dependencies:
