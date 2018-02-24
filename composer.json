@@ -57,6 +57,7 @@
         "drupal/nodequeue_migrate": "^1.0",
         "drupal/pathauto": "^1.0",
         "drupal/responsive_menus": "1.x-dev",
+        "drupal/system_stream_wrapper": "^1.0",
         "drupal/video_embed_field": "^2.0",
         "drush/drush": "~8.0|^9.0.0-beta8",
         "jackmoore/colorbox": "^1.6",
