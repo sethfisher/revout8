@@ -14,14 +14,21 @@ source:
   plugin: menu
 process:
   id:
-    plugin: static_map
-    bypass: true
-    source: menu_name
-    map:
-      main-menu: main
-      management: admin
-      navigation: tools
-      user-menu: account
+    -
+      plugin: skip_on_value
+      method: row
+      source: menu_name
+      value:
+      - menu-philly-socialists-banner
+    -
+      plugin: static_map
+      bypass: true
+      source: menu_name
+      map:
+        main-menu: main
+        management: admin
+        navigation: tools
+        user-menu: account
   label: title
   description: description
 destination:
