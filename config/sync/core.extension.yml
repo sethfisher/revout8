@@ -56,6 +56,7 @@ module:
   module_filter: 0
   ng_lightbox: 0
   node: 0
+  nodequeue_migrate: 0
   options: 0
   page_cache: 0
   path: 0
@@ -64,6 +65,7 @@ module:
   responsive_menus: 0
   revout_block_types: 0
   revout_default_content: 0
+  revout_migration: 0
   search: 0
   serialization: 0
   shortcut: 0

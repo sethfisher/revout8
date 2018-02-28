@@ -1,0 +1,72 @@
+uuid: 7b36c037-09ea-49b6-9729-a3fe4a5317c6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4Qkthlb2SDrLYgRb5DfrReY1gfzQBktsQtYeNFcsXJQ
+id: upgrade_d7_menu_links
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: 'Menu links'
+source:
+  plugin: menu_link
+  constants:
+    bundle: menu_link_content
+process:
+  id: mlid
+  bundle: constants/bundle
+  title:
+    plugin: str_replace
+    source: link_title
+    search: '<span class="soc">Socialism</span><span> & </span><span class="oitnb">OITNB</span><img src="/sites/all/themes/revolutionary_output/images/oitnb.jpg" alt="OITNB" title="OITNB">'
+    replace: '<span class="socialism-oitnb"><span class="soc">Socialism</span><span class="ampersand"> & </span><span class="oitnb">OITNB</span></span>'
+  description: description
+  menu_name:
+    -
+      plugin: migration_lookup
+      migration: upgrade_d7_menu
+      source: menu_name
+    -
+      plugin: skip_on_empty
+      method: row
+  link/uri:
+    -
+      plugin: link_uri
+      source:
+        - link_path
+    -
+      plugin: menu_link_uri
+  link/options: options
+  route:
+    plugin: route
+    source:
+      - link_path
+      - options
+  route_name: '@route/route_name'
+  route_parameters: '@route/route_parameters'
+  url: '@route/url'
+  options: '@route/options'
+  external: external
+  weight: weight
+  expanded: expanded
+  enabled: enabled
+  parent:
+    plugin: menu_link_parent
+    source:
+      - plid
+      - '@menu_name'
+      - parent_link_path
+  changed: updated
+destination:
+  plugin: 'entity:menu_link_content'
+  no_stub: true
+migration_dependencies:
+  required:
+    - upgrade_d7_menu
+    - upgrade_d7_node_article
+    - upgrade_d7_node_character
+  optional: {  }

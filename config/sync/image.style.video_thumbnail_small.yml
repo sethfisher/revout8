@@ -1,0 +1,33 @@
+uuid: 986a4115-f475-40ab-828f-3d82399b6b91
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: video_thumbnail_small
+label: 'Video Thumbnail Small'
+effects:
+  514569f8-ec1a-4d30-838e-e77af83888f8:
+    uuid: 514569f8-ec1a-4d30-838e-e77af83888f8
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: 100
+      upscale: false
+  f24d0f10-9e8a-4707-8449-ebc163a59dc0:
+    uuid: f24d0f10-9e8a-4707-8449-ebc163a59dc0
+    id: image_effects_watermark
+    weight: 2
+    data:
+      xpos: center
+      ypos: center
+      alpha: '100'
+      path: 'theme://revolutionary_output/images/play-button-small.png'
+      watermark_image: 'theme://revolutionary_output/images/play-button-small.png'
+      watermark_width: null
+      watermark_height: null
+      placement: center-center
+      x_offset: '0'
+      y_offset: '0'
+      opacity: 100

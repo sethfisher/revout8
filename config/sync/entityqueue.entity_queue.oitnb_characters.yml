@@ -1,0 +1,20 @@
+uuid: 7be338ba-0792-47e7-b952-a4df3eeffca3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: oitnb_characters
+label: 'OITNB Characters'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      - character
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false

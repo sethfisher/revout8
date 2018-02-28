@@ -1,0 +1,40 @@
+uuid: 59ed6e14-958c-4730-a708-e81a519b2412
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y8hq7W_iSwBG88081A5wVg5RAxw9Rtr4vPPrUH6Ag_w
+id: upgrade_d7_menu
+class: Drupal\migrate\Plugin\Migration
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: Menus
+source:
+  plugin: menu
+process:
+  id:
+    -
+      plugin: skip_on_value
+      method: row
+      source: menu_name
+      value:
+        - menu-philly-socialists-banner
+    -
+      plugin: static_map
+      bypass: true
+      source: menu_name
+      map:
+        main-menu: main
+        management: admin
+        navigation: tools
+        user-menu: account
+  label: title
+  description: description
+destination:
+  plugin: 'entity:menu'
+migration_dependencies:
+  required: {  }
+  optional: {  }

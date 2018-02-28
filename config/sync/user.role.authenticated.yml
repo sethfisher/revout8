@@ -5,15 +5,16 @@ dependencies: {  }
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
-label: 'Authenticated user'
+label: 'authenticated user'
 weight: 1
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
+  - 'menu view unpublished'
   - 'post comments'
-  - 'search content'
   - 'skip comment approval'
+  - 'use text format filtered_html'
+  - 'view any promotional_video bean'
   - 'view media'
+  - 'view own unpublished content'
