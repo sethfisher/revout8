@@ -1,0 +1,8 @@
+uuid: a046ac3c-5a4a-44d8-9af5-79dcdd87fdde
+langcode: en
+status: true
+dependencies: {  }
+id: node__character
+label: 'Content: Character'
+tags:
+  title: 'Socialism & OITNB - [node:title] | [site:name]'
