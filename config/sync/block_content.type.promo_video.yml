@@ -1,0 +1,10 @@
+uuid: 798f10a0-3fa5-4ece-96b1-788db2e9541c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nYdtkp2t0UESa9fRQDyi7JAFwRpxztTETH5sn7mvP_U
+id: promo_video
+label: 'Promo Video'
+revision: 0
+description: 'Promo video block'

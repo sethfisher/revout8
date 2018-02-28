@@ -20,6 +20,7 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
+  default_content: 0
   dynamic_page_cache: 0
   editor: 0
   embed: 0
@@ -34,6 +35,7 @@ module:
   file_mdm_exif: 0
   file_mdm_font: 0
   filter: 0
+  hal: 0
   help: 0
   history: 0
   image: 0
@@ -60,7 +62,10 @@ module:
   quickedit: 0
   rdf: 0
   responsive_menus: 0
+  revout_block_types: 0
+  revout_default_content: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   system_stream_wrapper: 0
