@@ -1,5 +1,14 @@
 style: responsive_menus_simple
-ignore_admin: true
-style_settings: {  }
+ignore_admin: 1
+style_settings:
+  selector_info: ''
+  responsive_menus_simple_absolute: 0
+  responsive_menus_disable_mouse_events: 0
+  responsive_menus_remove_attributes: 1
+  responsive_menus_css_selectors: '#block-oitnbcharacters'
+  responsive_menus_simple_text: '☰ OITNB CHARACTERS MENU'
+  responsive_menus_media_size: '125'
+  responsive_menus_media_unit: em
 _core:
   default_config_hash: Ew71dtLpbljPB4lmHfbm09DRmpU18l9fJZxgLKI-DDI
+no_jquery_update: null
