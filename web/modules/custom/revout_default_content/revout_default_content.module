@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains revout_default_content.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function revout_default_content_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the revout_default_content module.
+    case 'help.page.revout_default_content':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Content to install before migrating from Revout7') . '</p>';
+      return $output;
+
+    default:
+  }
+}

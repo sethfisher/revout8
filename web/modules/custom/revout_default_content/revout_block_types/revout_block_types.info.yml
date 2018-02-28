@@ -1,0 +1,5 @@
+name: 'revout_block_types'
+type: module
+description: 'Custom Block types for Revout'
+core: 8.x
+package: 'Custom'

@@ -1,0 +1,8 @@
+name: 'revout_default_content'
+type: module
+description: 'Content to install before migrating from Revout7'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - default_content
+  - revout_block_types

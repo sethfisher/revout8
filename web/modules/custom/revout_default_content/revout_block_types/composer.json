@@ -1,0 +1,14 @@
+{
+  "name": "drupal/revout_block_types",
+  "type": "drupal-module",
+  "description": "Custom Block types for Revout",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/revout_block_types",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/revout_block_types",
+    "source": "http://cgit.drupalcode.org/revout_block_types"
+  },
+  "require": { }
+}

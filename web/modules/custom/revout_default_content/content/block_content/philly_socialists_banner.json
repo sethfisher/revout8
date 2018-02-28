@@ -1,0 +1,88 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/basic"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "0800db15-3b3c-476d-a0a3-0dbbbf716bdb"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic"
+        }
+    ],
+    "info": [
+        {
+            "value": "Philly Socialists Banner",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-28T02:55:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-02-28T02:55:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "metatag": [
+        {
+            "value": {
+                "title": "| Drupal 8 Site (Dev)",
+                "twitter_cards_type": "summary",
+                "shortlink": "http:\/\/default\/%3Cnone%3E",
+                "canonical_url": "http:\/\/default\/%3Cnone%3E",
+                "twitter_cards_site": "@SethJFisher",
+                "twitter_cards_creator": "@SethJFisher",
+                "twitter_cards_page_url": "http:\/\/default\/%3Cnone%3E"
+            }
+        }
+    ],
+    "body": [
+        {
+            "value": "<p><a href=\"http:\/\/www.phillysocialists.org\" target=\"_blank\"><img alt=\"Philly Socialists\" data-entity-type=\"\" data-entity-uuid=\"\" src=\"http:\/\/revolutionaryoutput.com\/sites\/default\/files\/phillysocialists_banner.jpg\" title=\"Philly Socialists\" \/><\/a><\/p>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

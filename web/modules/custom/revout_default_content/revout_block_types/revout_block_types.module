@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains revout_block_types.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function revout_block_types_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the revout_block_types module.
+    case 'help.page.revout_block_types':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom Block types for Revout') . '</p>';
+      return $output;
+
+    default:
+  }
+}
