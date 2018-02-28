@@ -1,0 +1,11 @@
+id: custom_soc_oitnb_title
+label: 'Custom Soc. OITNB Title'
+ui_limit: '*|*'
+properties:
+  content:
+    value: '<h2><a href="[node:url]">Socialism &amp; <span class="oitnb">OITNB</span> - Overview</a></h2>'
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node
