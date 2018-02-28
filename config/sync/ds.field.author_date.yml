@@ -1,0 +1,11 @@
+id: author_date
+label: 'Author - Date'
+ui_limit: '*|*'
+properties:
+  content:
+    value: 'by [node:author] - [node:created:short]'
+    format: plain_text
+type: token
+type_label: 'Token field'
+entities:
+  node: node
