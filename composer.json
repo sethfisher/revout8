@@ -41,6 +41,7 @@
         "drupal/colorbox_load": "^1.0",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.4",
+        "drupal/default_content": "^1.0",
         "drupal/drupal8_zymphonies_theme": "^1.0",
         "drupal/ds": "^3.0",
         "drupal/entity_embed": "^1.0",
