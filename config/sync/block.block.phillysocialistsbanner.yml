@@ -1,0 +1,25 @@
+uuid: 352edfe6-2222-43f6-b80e-fccb067a988f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0800db15-3b3c-476d-a0a3-0dbbbf716bdb'
+  module:
+    - block_content
+  theme:
+    - revolutionary_output
+id: phillysocialistsbanner
+theme: revolutionary_output
+region: header_second
+weight: 0
+provider: null
+plugin: 'block_content:0800db15-3b3c-476d-a0a3-0dbbbf716bdb'
+settings:
+  id: 'block_content:0800db15-3b3c-476d-a0a3-0dbbbf716bdb'
+  label: 'Philly Socialists Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

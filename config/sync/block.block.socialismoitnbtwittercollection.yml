@@ -1,0 +1,25 @@
+uuid: 339a05f9-f77a-4135-9d78-347b901e895f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6f28ba2a-aca1-4129-a5f1-71314c2e748d'
+  module:
+    - block_content
+  theme:
+    - revolutionary_output
+id: socialismoitnbtwittercollection
+theme: revolutionary_output
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:6f28ba2a-aca1-4129-a5f1-71314c2e748d'
+settings:
+  id: 'block_content:6f28ba2a-aca1-4129-a5f1-71314c2e748d'
+  label: 'Socialism & OITNB Twitter Collection'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

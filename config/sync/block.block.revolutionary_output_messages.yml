@@ -11,7 +11,7 @@ _core:
 id: revolutionary_output_messages
 theme: revolutionary_output
 region: highlighted
-weight: -100
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

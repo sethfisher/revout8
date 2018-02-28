@@ -1,0 +1,24 @@
+uuid: c887da97-7569-4af2-909f-5d3c1e5893cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.menu-oitnb-characters
+  module:
+    - system
+  theme:
+    - revolutionary_output
+id: oitnbcharacters
+theme: revolutionary_output
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:menu-oitnb-characters'
+settings:
+  id: 'system_menu_block:menu-oitnb-characters'
+  label: 'OITNB Characters'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

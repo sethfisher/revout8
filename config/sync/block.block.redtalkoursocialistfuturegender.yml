@@ -1,0 +1,25 @@
+uuid: a5b33a2e-a5b8-409d-9906-47cf94b18f5e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:promo_video:bb7fd5b8-0df8-4708-b3e5-b67c953824d9'
+  module:
+    - block_content
+  theme:
+    - revolutionary_output
+id: redtalkoursocialistfuturegender
+theme: revolutionary_output
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:bb7fd5b8-0df8-4708-b3e5-b67c953824d9'
+settings:
+  id: 'block_content:bb7fd5b8-0df8-4708-b3e5-b67c953824d9'
+  label: 'REDTalk: Our Socialist Future - Gender'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
