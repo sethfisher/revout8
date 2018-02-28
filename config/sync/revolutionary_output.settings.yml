@@ -23,24 +23,24 @@ settings:
   max_width_unit: em
   breakpoint_group_layout: at_core.advanced
   page_wide_leaderboard: ''
-  page_wide_header: twocol-6-6
+  page_wide_header: ''
   page_wide_navbar: ''
   page_wide_highlighted: ''
-  page_wide_features: threecol-source-ordered-2-8-2
+  page_wide_features: ''
   page_wide_content_prefix: ''
-  page_wide_main: threecol-source-ordered-3-6-3
+  page_wide_main: ''
   page_wide_content_suffix: ''
-  page_wide_subfeatures: fourcol-3-3-3-3
+  page_wide_subfeatures: ''
   page_wide_footer: ''
   page_tablet_leaderboard: ''
-  page_tablet_header: ''
+  page_tablet_header: twocol-3-9
   page_tablet_navbar: ''
   page_tablet_highlighted: ''
-  page_tablet_features: threecol-split-row-12--6-6
+  page_tablet_features: ''
   page_tablet_content_prefix: ''
-  page_tablet_main: threecol-split-row-12--6-6
+  page_tablet_main: threecol-source-ordered-3-6-3
   page_tablet_content_suffix: ''
-  page_tablet_subfeatures: fourcol-split-row-6-6--6-6
+  page_tablet_subfeatures: ''
   page_tablet_footer: ''
   page_mobile_leaderboard: ''
   page_mobile_header: ''
@@ -511,6 +511,96 @@ settings:
   page_tabletisolate_footer: ''
   page_tabletisolate_footer_weight: '9'
   page_tabletisolate_footer_hide: 0
+  page_huge_leaderboard: ''
+  page_wideisolate_leaderboard: ''
+  page_mobileisolate_leaderboard: ''
+  page_huge_leaderboard_weight: '0'
+  page_wideisolate_leaderboard_weight: '0'
+  page_mobileisolate_leaderboard_weight: '0'
+  page_huge_leaderboard_hide: 0
+  page_wideisolate_leaderboard_hide: 0
+  page_mobileisolate_leaderboard_hide: 0
+  page_huge_header: ''
+  page_wideisolate_header: ''
+  page_mobileisolate_header: twocol-3-9
+  page_huge_header_weight: '1'
+  page_wideisolate_header_weight: '1'
+  page_mobileisolate_header_weight: '1'
+  page_huge_header_hide: 0
+  page_wideisolate_header_hide: 0
+  page_mobileisolate_header_hide: 0
+  page_huge_navbar: ''
+  page_wideisolate_navbar: ''
+  page_mobileisolate_navbar: ''
+  page_huge_navbar_weight: '2'
+  page_wideisolate_navbar_weight: '2'
+  page_mobileisolate_navbar_weight: '2'
+  page_huge_navbar_hide: 0
+  page_wideisolate_navbar_hide: 0
+  page_mobileisolate_navbar_hide: 0
+  page_huge_highlighted: ''
+  page_wideisolate_highlighted: ''
+  page_mobileisolate_highlighted: ''
+  page_huge_highlighted_weight: '3'
+  page_wideisolate_highlighted_weight: '3'
+  page_mobileisolate_highlighted_weight: '3'
+  page_huge_highlighted_hide: 0
+  page_wideisolate_highlighted_hide: 0
+  page_mobileisolate_highlighted_hide: 0
+  page_huge_features: ''
+  page_wideisolate_features: ''
+  page_mobileisolate_features: ''
+  page_huge_features_weight: '4'
+  page_wideisolate_features_weight: '4'
+  page_mobileisolate_features_weight: '4'
+  page_huge_features_hide: 0
+  page_wideisolate_features_hide: 0
+  page_mobileisolate_features_hide: 0
+  page_huge_content_prefix: ''
+  page_wideisolate_content_prefix: ''
+  page_mobileisolate_content_prefix: ''
+  page_huge_content_prefix_weight: '5'
+  page_wideisolate_content_prefix_weight: '5'
+  page_mobileisolate_content_prefix_weight: '5'
+  page_huge_content_prefix_hide: 0
+  page_wideisolate_content_prefix_hide: 0
+  page_mobileisolate_content_prefix_hide: 0
+  page_huge_main: ''
+  page_wideisolate_main: ''
+  page_mobileisolate_main: ''
+  page_huge_main_weight: '6'
+  page_wideisolate_main_weight: '6'
+  page_mobileisolate_main_weight: '6'
+  page_huge_main_hide: 0
+  page_wideisolate_main_hide: 0
+  page_mobileisolate_main_hide: 0
+  page_huge_content_suffix: ''
+  page_wideisolate_content_suffix: ''
+  page_mobileisolate_content_suffix: ''
+  page_huge_content_suffix_weight: '7'
+  page_wideisolate_content_suffix_weight: '7'
+  page_mobileisolate_content_suffix_weight: '7'
+  page_huge_content_suffix_hide: 0
+  page_wideisolate_content_suffix_hide: 0
+  page_mobileisolate_content_suffix_hide: 0
+  page_huge_subfeatures: ''
+  page_wideisolate_subfeatures: ''
+  page_mobileisolate_subfeatures: ''
+  page_huge_subfeatures_weight: '8'
+  page_wideisolate_subfeatures_weight: '8'
+  page_mobileisolate_subfeatures_weight: '8'
+  page_huge_subfeatures_hide: 0
+  page_wideisolate_subfeatures_hide: 0
+  page_mobileisolate_subfeatures_hide: 0
+  page_huge_footer: ''
+  page_wideisolate_footer: ''
+  page_mobileisolate_footer: ''
+  page_huge_footer_weight: '9'
+  page_wideisolate_footer_weight: '9'
+  page_mobileisolate_footer_weight: '9'
+  page_huge_footer_hide: 0
+  page_wideisolate_footer_hide: 0
+  page_mobileisolate_footer_hide: 0
 features:
   logo: 1
   node_user_picture: 1
