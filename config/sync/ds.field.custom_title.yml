@@ -1,0 +1,11 @@
+id: custom_title
+label: 'Custom Title'
+ui_limit: '*|*'
+properties:
+  content:
+    value: '<h2 id="[node:title]"><a href="[node:url]">[node:title]</a></h2>'
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node
