@@ -21,7 +21,7 @@ settings:
   max_width_enable: 0
   max_width_value: '75'
   max_width_unit: em
-  breakpoint_group_layout: at_core.simple
+  breakpoint_group_layout: at_core.advanced
   page_wide_leaderboard: ''
   page_wide_header: twocol-6-6
   page_wide_navbar: ''
@@ -481,6 +481,36 @@ settings:
   max_width_unit_subfeatures: em
   max_width_value_footer: ''
   max_width_unit_footer: em
+  page_tabletisolate_leaderboard: ''
+  page_tabletisolate_leaderboard_weight: '0'
+  page_tabletisolate_leaderboard_hide: 0
+  page_tabletisolate_header: ''
+  page_tabletisolate_header_weight: '1'
+  page_tabletisolate_header_hide: 0
+  page_tabletisolate_navbar: ''
+  page_tabletisolate_navbar_weight: '2'
+  page_tabletisolate_navbar_hide: 0
+  page_tabletisolate_highlighted: ''
+  page_tabletisolate_highlighted_weight: '3'
+  page_tabletisolate_highlighted_hide: 0
+  page_tabletisolate_features: ''
+  page_tabletisolate_features_weight: '4'
+  page_tabletisolate_features_hide: 0
+  page_tabletisolate_content_prefix: ''
+  page_tabletisolate_content_prefix_weight: '5'
+  page_tabletisolate_content_prefix_hide: 0
+  page_tabletisolate_main: ''
+  page_tabletisolate_main_weight: '6'
+  page_tabletisolate_main_hide: 0
+  page_tabletisolate_content_suffix: ''
+  page_tabletisolate_content_suffix_weight: '7'
+  page_tabletisolate_content_suffix_hide: 0
+  page_tabletisolate_subfeatures: ''
+  page_tabletisolate_subfeatures_weight: '8'
+  page_tabletisolate_subfeatures_hide: 0
+  page_tabletisolate_footer: ''
+  page_tabletisolate_footer_weight: '9'
+  page_tabletisolate_footer_hide: 0
 features:
   logo: 1
   node_user_picture: 1

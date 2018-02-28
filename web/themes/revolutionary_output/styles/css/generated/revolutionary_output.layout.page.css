@@ -1,4 +1,4 @@
-/* Layout CSS for: page.html.twig, generated: Tue, 23 Jan 18 14:35:17 -0500 */
+/* Layout CSS for: page.html.twig, generated: Wed, 28 Feb 18 15:08:58 -0500 */
 
 .page {
   display: flex;
@@ -25,20 +25,37 @@
 
 .l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 .l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-.l-navbar { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-.l-highlighted { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-.l-features { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
-.l-content-prefix { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
-.l-main { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
-.l-content-suffix { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
-.l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
-.l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 
 }
 /* End breakpoint */
 
 /* Begin breakpoint: tablet */
 @media all and (min-width: 45.0625em) {
+
+.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+
+}
+/* End breakpoint */
+
+/* Begin breakpoint: wide */
+@media all and (min-width: 60.0625em) {
 
 .l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 .l-header { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
@@ -52,11 +69,60 @@
 .l-footer { -webkit-order: 10; -ms-flex-order: 10; order: 10; }
 
 .pr-header .arc--2 .l-r {
-  width: 25%;
+  width: 50%;
 }
 
-.pr-header .arc--2 .l-r:last-child {
-  width: 75%;
+.pr-features .hr--1-2 .l-r:first-child {
+  width: 83.33333%;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.pr-features .hr--1-2 .l-r:last-child {
+  width: 16.66667%;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.pr-features .hr--1-3 .l-r:first-child {
+  width: 83.33333%;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.pr-features .hr--1-3 .l-r:last-child {
+  width: 16.66667%;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.pr-features .hr--2-3 .l-r {
+  width: 50%;
+}
+
+.pr-features .arc--3 .l-r:first-child {
+  width: 66.66667%;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.pr-features .arc--3 .l-r:nth-child(2) {
+  width: 16.66667%;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.pr-features .arc--3 .l-r:last-child {
+  width: 16.66667%;
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
 }
 
 .pr-main .hr--1-2 .l-r:first-child {
@@ -112,53 +178,17 @@
           order: 3;
 }
 
-/* Region margins */
-#masthead {
-  margin: 0 .625rem;
+.pr-subfeatures .arc--2 .l-r {
+  width: 50%;
 }
 
-#navbar {
-  margin: .625rem;
+.pr-subfeatures .arc--3 .l-r {
+  width: 33.33333%;
 }
 
-/* Masthead min-heights */
-#masthead div.regions {
-  min-height: 15.625rem;
+.pr-subfeatures .arc--4 .l-r {
+  width: 25%;
 }
-
-#masthead #block-phillysocialistsbanner img {
-  min-height: 15.625rem;
-}
-
-/* Set height for main menu items */
-#block-mainmenu li.menu__item {
-  height: 20%;
-}
-
-#block-mainmenu a {
-  font-size: .875rem;
-}
-
-#block-mainmenu span.socialism-oitnb span.ampersand {
-  font-size: .79rem;
-}
-
-}
-/* End breakpoint */
-
-/* Begin breakpoint: wide */
-@media all and (min-width: 60.0625em) {
-
-.l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-.l-header { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-.l-navbar { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-.l-highlighted { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
-.l-features { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
-.l-content-prefix { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
-.l-main { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
-.l-content-suffix { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
-.l-subfeatures { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
-.l-footer { -webkit-order: 10; -ms-flex-order: 10; order: 10; }
 
 }
 /* End breakpoint */
@@ -168,14 +198,14 @@
 
 .l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 .l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-.l-navbar { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-.l-highlighted { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-.l-features { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
-.l-content-prefix { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
-.l-main { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
-.l-content-suffix { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
-.l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
-.l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 
 }
 /* End breakpoint */
@@ -194,33 +224,6 @@
 .l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
 .l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
 
-/* Display Revolutionary Output menu item on two lines */
-#block-mainmenu span.revout {
-  position: unset;
-}
-
-#block-mainmenu span.revout span.rev {
-  display: block;
-}
-
-/* Show just icons for Socialism & OITNB menu item */
-#block-mainmenu span.soc, #block-mainmenu span.oitnb {
-  display:none;
-}
-
-#block-mainmenu li#mlid-socialism--oitnb span {
-  font-size: 1.5rem;
-}
-
-#block-mainmenu li#mlid-linkedin {
-  border-bottom: none;
-}
-
-/* Reduce Promo Video font size */
-div#main-content #block-redtalkoursocialistfuturegender h2 {
-  font-size: 1.125rem;
-}
-
 }
 /* End breakpoint */
 
@@ -229,50 +232,14 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
 
 .l-leaderboard { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 .l-header { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-.l-navbar { -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-.l-highlighted { -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-.l-features { -webkit-order: 4; -ms-flex-order: 4; order: 4; }
-.l-content-prefix { -webkit-order: 5; -ms-flex-order: 5; order: 5; }
-.l-main { -webkit-order: 6; -ms-flex-order: 6; order: 6; }
-.l-content-suffix { -webkit-order: 7; -ms-flex-order: 7; order: 7; }
-.l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
-.l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
-
-.pr-header .arc--2 .l-r {
-  width: 25%;
-}
-
-.pr-header .arc--2 .l-r:last-child {
-  width: 75%;
-}
-
-
-/* Show main menu at full screen width and beneath the header */
-#block-mainmenu div#rm-content {
-  position: absolute;
-  width: 100%;
-}
-
-/* Set height for main menu items */
-#block-mainmenu li.menu__item {
-  height: 4rem;
-}
-
-#block-mainmenu a {
-  font-size: 1.125rem;
-}
-
-#block-mainmenu li#mlid-revolutionary-output {
-  border-top: solid #A11A1A;
-}
-
-#block-mainmenu li#mlid-linkedin {
-  border-bottom: solid #A11A1A;
-}
-
-#navbar {
-  margin: .625rem 0;
-}
+.l-navbar { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-highlighted { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-features { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-prefix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-main { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-content-suffix { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-subfeatures { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+.l-footer { -webkit-order: 1; -ms-flex-order: 1; order: 1; }
 
 }
 /* End breakpoint */
