@@ -114,10 +114,10 @@ settings:
   page_mobile_footer_hide: 0
   enable_backups: 0
   responsive_menu_block: revolutionary_output_main_menu
-  responsive_menu_default_style: slidedown
-  responsive_menu_responsive_style: dropmenu
-  responsive_menu_breakpoint_group: at_core.simple
-  responsive_menu_breakpoint: 'all and (min-width: 60.063em)'
+  responsive_menu_default_style: vertical
+  responsive_menu_responsive_style: slidedown
+  responsive_menu_breakpoint_group: at_core.advanced
+  responsive_menu_breakpoint: 'all and (max-width: 45em)'
   icon_path_default: images/touch-icons/Icon-60.png
   apple_touch_icon_path_iphone_retina: images/touch-icons/Icon-60-2x.png
   apple_touch_icon_path_ipad: images/touch-icons/Icon-76.png
