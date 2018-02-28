@@ -1,0 +1,11 @@
+id: page_title
+label: 'Page Title'
+ui_limit: '*|*'
+properties:
+  content:
+    value: '<span id="[node:title]">Socialism &amp; <span class="oitnb">OITNB</span> - [node:title]</span>'
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  node: node
