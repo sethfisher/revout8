@@ -1,0 +1,27 @@
+uuid: 611e28b6-7fe6-46db-91ea-07aaa9a2e4c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: RJBHYmXfcZ4bsKiBLTGwv7U4m3dvlkPPkSZBr6PTakE
+id: revolutionary_output_breadcrumbs
+theme: revolutionary_output
+region: content_prefix
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,26 @@
+uuid: 07cc858d-0869-47a6-882f-15e1be7b71ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: oaZwUOElKb4RaftcWKVhZcndVnBvrScj7sg5ldYEwvc
+id: revolutionary_output_main_menu
+theme: revolutionary_output
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  provider: system
+  label_display: 1
+  level: 1
+  depth: 0
+visibility: {  }

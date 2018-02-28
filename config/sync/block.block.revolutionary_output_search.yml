@@ -1,0 +1,22 @@
+uuid: 7d8fa4ca-d208-44cd-a356-0bcf3694d4c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: 7wwtN9ymm593cE4LtCO-rZKiP0kzto6eb-Hed4m0ebM
+id: revolutionary_output_search
+theme: revolutionary_output
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

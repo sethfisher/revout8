@@ -1,0 +1,22 @@
+uuid: 69f74b7a-463c-46ed-af5d-48665a390dce
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: YS99gchC9v8awViixLb9jq3TRiqnkx96gYjbULLpZrU
+id: revolutionary_output_content
+theme: revolutionary_output
+region: content
+weight: 4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

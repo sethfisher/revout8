@@ -1,0 +1,25 @@
+uuid: ce1c1290-f301-4b5c-ac94-0f7a61ce7c10
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: p_mWTDccsAciqvyHYkgOdMvZH6vecbbRa_Asp6ZV9CU
+id: revolutionary_output_branding
+theme: revolutionary_output
+region: header_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

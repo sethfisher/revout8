@@ -1,0 +1,20 @@
+uuid: e400875f-6b68-40cf-b2dd-9c1b8f864b5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: Dg4NFCvMTXjR_aI9c2Zu2mEIt_hQjpDmkMudNje-nnI
+id: revolutionary_output_local_actions
+theme: revolutionary_output
+region: content
+weight: 3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

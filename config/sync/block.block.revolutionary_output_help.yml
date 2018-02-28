@@ -1,0 +1,22 @@
+uuid: 6eef0810-b00b-4cb4-8835-4c665694cdd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: vloOE2skUG0nLg4Y_khQHsAMHuncwmBf9fdCAVAnxc4
+id: revolutionary_output_help
+theme: revolutionary_output
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

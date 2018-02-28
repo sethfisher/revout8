@@ -1,0 +1,26 @@
+uuid: dafcec92-154e-4fe3-a271-a0bfb8f58754
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: VLI0c4G_FP2gCvnGJbV1zeDCbLasefRXROMRomyM3Q4
+id: revolutionary_output_tools
+theme: revolutionary_output
+region: sidebar_second
+weight: 10
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

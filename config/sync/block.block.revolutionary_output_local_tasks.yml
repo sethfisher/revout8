@@ -1,0 +1,22 @@
+uuid: e34faa91-e029-41a9-ad79-aaf360a6b933
+langcode: en
+status: true
+dependencies:
+  theme:
+    - revolutionary_output
+_core:
+  default_config_hash: TvTYGpUIh90nC8kApWAvvQ0t0WeyPKiFEA2va3QMwHw
+id: revolutionary_output_local_tasks
+theme: revolutionary_output
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
