@@ -4,6 +4,18 @@
  * component stylesheets.
  ============================================================================ */
 
+/*
+ * Video Embed Field Colorbox preview image
+ */
+
+.video-embed-field-launch-modal img {
+  cursor: pointer;
+}
+
+/*
+ * Header styles
+ */
+
 #masthead div.regions {
   padding: 0;
   position: relative;
@@ -180,6 +192,10 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   padding-right: .9375em;
 }
 
+#block-revolutionary-output-content .node h2 {
+  margin: 1.3125rem 0;
+}
+
 .node--view-mode-teaser {
   border-top: thin #A11A1A solid;
 }
@@ -244,12 +260,4 @@ span.oitnb {
   background-size: auto 100%;
   background-repeat: no-repeat;
   height: auto;
-}
-
-/*
- * Video Embed Field Colorbox preview image
- */
-
-.video-embed-field-launch-modal img {
-  cursor: pointer;
 }
