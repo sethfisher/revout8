@@ -74,8 +74,9 @@ content:
             ow-el: ''
             ow-cl: ''
             ow-at: ''
+            fis: true
             fis-el: ''
-            fis-cl: ''
+            fis-cl: field-name-field-images
             fis-at: ''
             fi-el: ''
             fi-cl: ''
@@ -86,7 +87,6 @@ content:
             ow: false
             ow-def-at: false
             ow-def-cl: false
-            fis: false
             fis-def-at: false
             fi: false
             fi-def-at: false

@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.full
     - field.field.node.article.body
     - field.field.node.article.field_image
+    - field.field.node.article.field_metatags
     - field.field.node.article.field_tags
     - node.type.article
   module:
@@ -83,8 +84,9 @@ content:
             ow-el: ''
             ow-cl: ''
             ow-at: ''
+            fis: true
             fis-el: ''
-            fis-cl: ''
+            fis-cl: field-name-field-images
             fis-at: ''
             fi-el: ''
             fi-cl: ''
@@ -95,7 +97,6 @@ content:
             ow: false
             ow-def-at: false
             ow-def-cl: false
-            fis: false
             fis-def-at: false
             fi: false
             fi-def-at: false

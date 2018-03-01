@@ -195,6 +195,10 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   font-weight: bold;
 }
 
+#block-revolutionary-output-content .field-name-field-images img {
+  float: left;
+}
+
 #block-revolutionary-output-content .field-name-dynamic-token-fieldnode-author-date {
   float: left;
   padding-top: .33rem;
