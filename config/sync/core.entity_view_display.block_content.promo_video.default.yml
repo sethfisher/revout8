@@ -5,6 +5,7 @@ dependencies:
   config:
     - block_content.type.promo_video
     - field.field.block_content.promo_video.field_video
+    - image.style.video_preview_thumbnail
   module:
     - ds
     - video_embed_field
@@ -14,15 +15,18 @@ bundle: promo_video
 mode: default
 content:
   field_video:
-    type: video_embed_field_video
+    type: video_embed_field_colorbox
     weight: 0
     region: content
     label: hidden
     settings:
+      image_style: video_preview_thumbnail
+      link_image_to: ''
+      autoplay: true
       responsive: true
       width: 854
       height: 480
-      autoplay: false
+      modal_max_width: 854
     third_party_settings:
       ds:
         ft:
