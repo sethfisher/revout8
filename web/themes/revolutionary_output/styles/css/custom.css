@@ -180,6 +180,14 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   padding-right: .9375em;
 }
 
+.node--view-mode-teaser {
+  border-top: thin #A11A1A solid;
+}
+
+.node--view-mode-full {
+  border-bottom: thin #A11A1A solid;
+}
+
 /*
  * Special OITNB span style
  */
