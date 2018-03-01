@@ -102,7 +102,7 @@ content:
     type: video_embed_field_colorbox
     weight: 4
     region: content
-    label: hidden
+    label: inline
     settings:
       image_style: video_thumbnail_small
       link_image_to: ''
