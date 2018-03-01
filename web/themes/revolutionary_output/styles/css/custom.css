@@ -157,6 +157,10 @@ div#main-content .regions {
   padding: 0;
  }
 
+ /*
+  * Sidebar styles
+  */
+
 div#main-content #block-redtalkoursocialistfuturegender {
   margin-top: 0;
 }
@@ -165,18 +169,23 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   margin: 0;
 }
 
+/*
+ * Content block styles
+ */
+
 #block-revolutionary-output-content {
   margin: 0;
   font-size: 1.05rem;
   font-family: Georgia, serif;
 }
 
-#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-custom-soc-oitnb-page-title {
-  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
-
 #block-revolutionary-output-content h2 {
   font-size: 1.5rem;
+  margin: 1.3125rem 0;
+}
+
+#block-revolutionary-output-content .field-name-dynamic-token-fieldnode-custom-soc-oitnb-page-title {
+  font-family: "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
 #block-revolutionary-output-content .field-name-dynamic-token-fieldnode-page-title,
@@ -188,19 +197,15 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
 
 #block-revolutionary-output-content .field-name-dynamic-token-fieldnode-author-date {
   float: left;
-  padding-top: .3125em;
-  padding-right: .9375em;
+  padding-top: .33rem;
+  padding-right: .985rem;
 }
 
-#block-revolutionary-output-content .node h2 {
-  margin: 1.3125rem 0;
-}
-
-.node--view-mode-teaser {
+#block-revolutionary-output-content .node--view-mode-teaser {
   border-top: thin #A11A1A solid;
 }
 
-.node--view-mode-full {
+#block-revolutionary-output-content .node--view-mode-full {
   border-bottom: thin #A11A1A solid;
 }
 
