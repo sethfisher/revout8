@@ -201,6 +201,10 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   padding-right: .985rem;
 }
 
+#block-revolutionary-output-content .field-name-field-tags {
+  margin-top: .9375rem;
+}
+
 #block-revolutionary-output-content .node--view-mode-teaser {
   border-top: thin #A11A1A solid;
 }
