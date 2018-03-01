@@ -113,7 +113,7 @@ settings:
   page_tablet_footer_hide: 0
   page_mobile_footer_hide: 0
   enable_backups: 0
-  responsive_menu_block: revolutionary_output_main_menu
+  responsive_menu_block: mainmenu
   responsive_menu_default_style: vertical
   responsive_menu_responsive_style: slidedown
   responsive_menu_breakpoint_group: at_core.advanced
