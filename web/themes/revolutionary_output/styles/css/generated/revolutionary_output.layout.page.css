@@ -1,4 +1,4 @@
-/* Layout CSS for: page.html.twig, generated: Wed, 28 Feb 18 15:17:06 -0500 */
+/* Layout CSS for: page.html.twig, generated: Tue, 23 Jan 18 14:35:17 -0500 */
 
 .page {
   display: flex;
@@ -112,6 +112,37 @@
           order: 3;
 }
 
+/* Region margins */
+#masthead {
+  margin: 0 .625rem;
+}
+
+#navbar {
+  margin: .625rem;
+}
+
+/* Masthead min-heights */
+#masthead div.regions {
+  min-height: 15.625rem;
+}
+
+#masthead #block-phillysocialistsbanner img {
+  min-height: 15.625rem;
+}
+
+/* Set height for main menu items */
+#block-mainmenu li.menu__item {
+  height: 20%;
+}
+
+#block-mainmenu a {
+  font-size: .875rem;
+}
+
+#block-mainmenu span.socialism-oitnb span.ampersand {
+  font-size: .79rem;
+}
+
 }
 /* End breakpoint */
 
@@ -163,6 +194,33 @@
 .l-subfeatures { -webkit-order: 8; -ms-flex-order: 8; order: 8; }
 .l-footer { -webkit-order: 9; -ms-flex-order: 9; order: 9; }
 
+/* Display Revolutionary Output menu item on two lines */
+#block-mainmenu span.revout {
+  position: unset;
+}
+
+#block-mainmenu span.revout span.rev {
+  display: block;
+}
+
+/* Show just icons for Socialism & OITNB menu item */
+#block-mainmenu span.soc, #block-mainmenu span.oitnb {
+  display:none;
+}
+
+#block-mainmenu li#mlid-socialism--oitnb span {
+  font-size: 1.5rem;
+}
+
+#block-mainmenu li#mlid-linkedin {
+  border-bottom: none;
+}
+
+/* Reduce Promo Video font size */
+div#main-content #block-redtalkoursocialistfuturegender h2 {
+  font-size: 1.125rem;
+}
+
 }
 /* End breakpoint */
 
@@ -186,6 +244,34 @@
 
 .pr-header .arc--2 .l-r:last-child {
   width: 75%;
+}
+
+
+/* Show main menu at full screen width and beneath the header */
+#block-mainmenu div#rm-content {
+  position: absolute;
+  width: 100%;
+}
+
+/* Set height for main menu items */
+#block-mainmenu li.menu__item {
+  height: 4rem;
+}
+
+#block-mainmenu a {
+  font-size: 1.125rem;
+}
+
+#block-mainmenu li#mlid-revolutionary-output {
+  border-top: solid #A11A1A;
+}
+
+#block-mainmenu li#mlid-linkedin {
+  border-bottom: solid #A11A1A;
+}
+
+#navbar {
+  margin: .625rem 0;
 }
 
 }
