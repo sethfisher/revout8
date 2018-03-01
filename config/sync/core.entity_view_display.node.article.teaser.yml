@@ -101,5 +101,6 @@ content:
       link: false
     third_party_settings: {  }
 hidden:
+  field_metatags: true
   links: true
   oitnb_characters_entity_view_1: true
