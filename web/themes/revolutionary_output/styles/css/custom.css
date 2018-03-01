@@ -238,4 +238,10 @@ span.oitnb {
   height: auto;
 }
 
+/*
+ * Video Embed Field Colorbox preview image
+ */
 
+.video-embed-field-launch-modal img {
+  cursor: pointer;
+}
