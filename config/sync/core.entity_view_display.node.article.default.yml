@@ -4,6 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
     - node.type.article
   module:
     - text
@@ -23,6 +25,13 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
+  oitnb_characters_entity_view_1:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   addtoany: true
   field_image: true

@@ -1,9 +1,9 @@
-uuid: 700eb9c0-ae67-4bd9-a54e-671fcc109c9c
+uuid: c5be9748-e408-49e4-af7d-4cbb51b82819
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.teaser
+    - core.entity_view_mode.node.full
     - field.field.node.article.body
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
@@ -24,21 +24,28 @@ third_party_settings:
       settings: {  }
     regions:
       content:
-        - 'dynamic_token_field:node-custom_soc_oitnb_title'
+        - 'dynamic_token_field:node-custom_soc_oitnb_page_title'
         - field_image
-        - field_tags
+        - 'dynamic_token_field:node-author_date'
         - addtoany
+        - field_tags
         - body
+        - oitnb_characters_entity_view_1
     fields:
-      'dynamic_token_field:node-custom_soc_oitnb_title':
-        plugin_id: 'dynamic_token_field:node-custom_soc_oitnb_title'
+      'dynamic_token_field:node-author_date':
+        plugin_id: 'dynamic_token_field:node-author_date'
+        weight: 2
+        label: hidden
+        formatter: default
+      'dynamic_token_field:node-custom_soc_oitnb_page_title':
+        plugin_id: 'dynamic_token_field:node-custom_soc_oitnb_page_title'
         weight: 0
         label: hidden
         formatter: default
-id: node.article.teaser
+id: node.article.full
 targetEntityType: node
 bundle: article
-mode: teaser
+mode: full
 content:
   addtoany:
     weight: 3
@@ -48,7 +55,7 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 4
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -94,12 +101,16 @@ content:
             fi-def-at: false
   field_tags:
     type: entity_reference_label
-    weight: 2
+    weight: 4
     region: content
     label: hidden
     settings:
       link: false
     third_party_settings: {  }
+  oitnb_characters_entity_view_1:
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   links: true
-  oitnb_characters_entity_view_1: true
