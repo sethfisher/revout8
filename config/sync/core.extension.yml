@@ -13,7 +13,6 @@ module:
   color: 0
   colorbox: 0
   colorbox_field_formatter: 0
-  colorbox_load: 0
   comment: 0
   config: 0
   contact: 0
@@ -55,7 +54,6 @@ module:
   migrate_tools: 0
   migrate_upgrade: 0
   module_filter: 0
-  ng_lightbox: 0
   node: 0
   nodequeue_migrate: 0
   options: 0
