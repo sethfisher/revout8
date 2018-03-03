@@ -6,6 +6,7 @@ dependencies:
     - field.field.media.video.field_media_video_embed_field
     - media.type.video
   module:
+    - ds
     - video_embed_field
 _core:
   default_config_hash: INR9RUMwXSsZSpuUBrk1tawkeHfAOaPTN2WxpRXdyEc
@@ -15,16 +16,28 @@ bundle: video
 mode: default
 content:
   field_media_video_embed_field:
-    type: video_embed_field_video
+    type: video_embed_field_colorbox_link
     weight: 0
     region: content
     label: hidden
     settings:
-      responsive: true
-      width: 854
-      height: 480
-      autoplay: true
-    third_party_settings: {  }
+      image_style: ''
+      link_image_to: ''
+      autoplay: '1'
+      responsive: '1'
+      width: '854'
+      height: '480'
+      modal_max_width: '854'
+      use_thumb: label
+      default_text: trailer
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
 hidden:
   created: true
   name: true
