@@ -115,7 +115,8 @@
         },
         "patches": {
             "drupal/video_embed_field": {
-                "Add Autoplay, Start, and Index Parameters to YouTube Playlist": "https://github.com/sethfisher/video_embed_field/commit/614971024c2b02c64deae2de72f81d6b9a226f2e.patch"
+                "Add Autoplay, Start, and Index Parameters to YouTube Playlist": "https://github.com/sethfisher/video_embed_field/commit/614971024c2b02c64deae2de72f81d6b9a226f2e.patch",
+                "Allow the use of a text link instead of a thumbnail": "https://www.drupal.org/files/issues/video_embed_field-colorbox_link_entity_label_or_default_text-2850134-6.patch"
             }
         }
     }
