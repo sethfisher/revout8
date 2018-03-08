@@ -30,11 +30,8 @@ process:
         source: name
         map: {  }
       settings:
-        -
-          plugin: filter_settings
-          source: settings
-        -
-          plugin: modify_filtered_html
+        plugin: filter_settings
+        source: settings
       status:
         plugin: default_value
         default_value: true
