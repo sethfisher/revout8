@@ -1,0 +1,29 @@
+uuid: 54307dfe-121b-4aa4-81f5-5e9e25b1bd1d
+langcode: en
+status: true
+dependencies: {  }
+id: upgrade_d7_video
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags:
+  - 'Drupal 7'
+migration_group: migrate_drupal_7
+label: Video
+source:
+  plugin: videos
+process:
+  name:
+    -
+      plugin: extract_video_name
+      source: anchor
+    -
+      plugin: skip_on_empty
+      method: row
+  field_media_video_embed_field:
+    plugin: extract_video_href
+    source: anchor
+destination:
+  plugin: 'entity:media'
+  default_bundle: video
+migration_dependencies: null

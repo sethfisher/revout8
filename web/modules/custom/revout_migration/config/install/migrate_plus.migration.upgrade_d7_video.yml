@@ -1,0 +1,21 @@
+id: upgrade_d7_video
+label: 'Video'
+migration_tags:
+  - Drupal 7
+migration_group: migrate_drupal_7
+source:
+  plugin: videos
+process:
+  name:
+    -
+      plugin: extract_video_name
+      source: anchor
+    -
+      plugin: skip_on_empty
+      method: row
+  field_media_video_embed_field:
+    plugin: extract_video_href
+    source: anchor
+destination:
+  plugin: 'entity:media'
+  default_bundle: video
