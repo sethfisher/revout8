@@ -221,6 +221,20 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   display: inline;
 }
 
+#block-revolutionary-output-content .field-node--body ul {
+  display: block;
+  padding-left: 2.5rem;
+  margin: 1rem 0 -2rem 0;
+}
+
+#block-revolutionary-output-content .field-node--body li {
+  display: list-item;
+}
+
+#block-revolutionary-output-content .field-node--body ul p {
+  display: none;
+}
+
 #block-revolutionary-output-content .field-name-field-video .field__item {
   padding-right: 1.25rem;
 }
