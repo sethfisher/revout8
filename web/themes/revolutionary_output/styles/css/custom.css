@@ -235,6 +235,11 @@ div#main-content #block-redtalkoursocialistfuturegender h2 {
   display: none;
 }
 
+#block-revolutionary-output-content .video-embed-field-launch-modal a {
+  padding-right: 1.25rem;
+  background: url('/themes/revolutionary_output/images/play-button-video-text.png') no-repeat right;
+}
+
 #block-revolutionary-output-content .field-name-field-video .field__item {
   padding-right: 1.25rem;
 }
