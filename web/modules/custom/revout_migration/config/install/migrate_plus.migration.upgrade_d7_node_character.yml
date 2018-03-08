@@ -32,8 +32,11 @@ process:
   revision_timestamp: timestamp
   comment_node_character/0/status: comment
   body:
-    plugin: get
-    source: body
+    -
+      plugin: get
+      source: body
+    -
+      plugin: modify_video_links
   field_image:
     plugin: iterator
     source: field_image
@@ -61,6 +64,7 @@ migration_dependencies:
   required:
     - upgrade_d7_user
     - upgrade_d7_node_type
+    - upgrade_d7_video
   optional:
     - upgrade_d7_field_instance
     - upgrade_d7_comment_field_instance
