@@ -1,5 +1,5 @@
 buttons_size: 32
-additional_html: "<a class=\"a2a_button_twitter_tweet\" data-size=\"large\"></a>\r\n"
+additional_html: "<a class=\"a2a_button_twitter_tweet\" data-size=\"large\" data-text=\"[node:title]\"></a>\r\n"
 additional_css: ''
 additional_js: ''
 universal_button: none
