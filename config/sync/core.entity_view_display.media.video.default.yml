@@ -39,6 +39,7 @@ content:
             lb-col: false
             classes: {  }
 hidden:
+  addtoany: true
   created: true
   name: true
   thumbnail: true
