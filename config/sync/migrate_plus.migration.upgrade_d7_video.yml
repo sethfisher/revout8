@@ -21,8 +21,12 @@ process:
       plugin: skip_on_empty
       method: row
   field_media_video_embed_field:
-    plugin: extract_video_href
-    source: anchor
+    -
+      plugin: extract_video_href
+      source: anchor
+    -
+      plugin: skip_on_empty
+      method: row
 destination:
   plugin: 'entity:media'
   default_bundle: video
