@@ -57,10 +57,16 @@ class ModifyVideoLinks extends ProcessPluginBase {
           $results = $query->execute()->fetchAll();
           $vid_id = '';
 
-          // Iterate through the results and find the case sensitive, exact
-          // match for our anchor.
+          /**
+           * Iterate through the results and find the case sensitive, exact
+           * match for our anchor.
+           *
+           * We have to check destid1 exists because the map table has skipped
+           * dupes in it, so we need to keep iterating until we find an actual
+           * destination video.
+           */
           foreach ($results as $result) {
-            if ($result->sourceid1 == $anchor_html) {
+            if ($result->destid1 && $result->sourceid1 == $anchor_html) {
               $vid_id = $result->destid1;
             }
           }
