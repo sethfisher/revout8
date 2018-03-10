@@ -28,6 +28,7 @@ class ExtractVideoHref extends ProcessPluginBase {
     $dom = HTML::load($value);
     $anchors = $dom->getElementsByTagName('a');
     $href = '';
+    $text = '';
 
     /**
      * There will only be one anchor, but calling the above DOM method and
@@ -37,6 +38,7 @@ class ExtractVideoHref extends ProcessPluginBase {
      */
     foreach ($anchors as $anchor) {
       $href = $anchor->getAttribute('href');
+      $text = $anchor->textContent;
 
       // The videoId comes between embed/ and ? in all Revout7 video links.
       $videoIdStart = strpos($href, 'embed/') + 6;
@@ -130,6 +132,29 @@ class ExtractVideoHref extends ProcessPluginBase {
        * empty parameter.
        */
       $href = $href . '&index=' . $playlistIndex;
+    }
+
+    /**
+     * Check to see if this is a dupe video being created. If it is, empty out
+     * the href string and pass it back. The skip_on_empty plugin will then skip
+     * this row, and a duplicate video won't be created.
+     *
+     * For an explanation as to why this must be done here, see the comments in
+     * the getIds method of the Videos source plugin.
+     */
+    $videos = \Drupal::entityTypeManager()
+      ->getStorage('media')
+      ->loadByProperties(['name' => $text]);
+    foreach ($videos as $video) {
+      $video_href = $video->field_media_video_embed_field->value;
+      /**
+       * We have to check the name field against the anchor text again due to
+       * case sensitivity issues. The loadByProperties method above is case
+       * insensitive, so we have to check again here.
+       */
+      if ($text == $video->label() && $href == $video_href) {
+        $href = '';
+      }
     }
     return $href;
   }
