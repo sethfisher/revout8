@@ -29,7 +29,9 @@ class ExtractVideoName extends ProcessPluginBase {
 
     /**
      * There will only be one anchor, but calling the above DOM method and
-     * "looping" through a one result Object is the easiest way.
+     * "looping" through a one result Object is the easiest way. Another option
+     * is to convert to an Array using iterator_to_array and then get the first
+     * element using the reset() method.
      */
     foreach ($anchors as $anchor) {
       /**
